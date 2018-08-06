@@ -15,11 +15,6 @@ import Register from './components/register'
 import Hotel from './components/hotel'
 
 
-
-
-
-
-
 class App extends Component {
   render() {
     return (
@@ -28,7 +23,7 @@ class App extends Component {
       		<div>
 						<div className='home_nav'>
 						<ul>
-							<li><Link to='/'></Link></li>
+							<li><a href='/'></a></li>
 		      		<li><Link to='/home'>首页</Link></li>
 		      		<li><Link to='/trip'>主题旅行</Link></li>
 		      		<li><Link to='/hotel'>主题酒店</Link></li>
@@ -38,7 +33,7 @@ class App extends Component {
 		      		<li><Link to='/heart'>零感触发</Link></li>
 		      	</ul>
 		      	<div className='home_nav_right'>
-		      		<Link to='/register'>注册/</Link>
+		      		<Link to='/register'>注册</Link>
 		      		<Link to='/login'>登录</Link>
 						</div>
 						
@@ -51,10 +46,10 @@ class App extends Component {
 						<Route path='/custom' component={Custom}></Route>
 						<Route path='/vr' component={Vr}></Route>
 						<Route path='/impression' component={Impression}></Route>
-						
 						<Route path='/heart' component={Heart}></Route>
 						<Route path='/register' component={Register}></Route>
 						<Route path='/login' component={Login}></Route>
+						
       			<Redirect to='/home'/>
       			</Switch>
       		</div>

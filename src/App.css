@@ -23,7 +23,6 @@ input,a{outline:none;}
 .home_nav>ul>li{
 	float: left;
 	box-sizing: border-box;
-	height: 100%;
 	padding: 32px 5px 0;
 	margin-right: 32px;
 }
@@ -43,13 +42,16 @@ input,a{outline:none;}
 .app_con>img{
 	width: 100%;
 }
-a{
-	float: left;
+.home_nav a{
+	display: block;
 	margin-left:15px;
 	font-size: 16px;
 	color: #fff;
+	position: relative;
+	bottom: 0;
 }
-a:hover{
+.home_nav li:hover a{
 	color: rgb(242, 175, 51);
+	bottom: 5px;
 }
 

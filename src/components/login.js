@@ -1,5 +1,5 @@
 import React from 'react'
-
+import $ from 'jquery'
 
 class Login extends React.Component{
 	constructor (props){
@@ -8,7 +8,9 @@ class Login extends React.Component{
 		
 		
 	}
-	
+	componentDidMount(){
+		$('.home_nav').css("display","none")
+	}
 	render(){
 		return(
 			<div>
