@@ -24,13 +24,9 @@ class App extends Component {
   render() {
     return (
       <div>
-      	
-      	
-      	
-      	
       	<Router>
       		<div>
-				
+						<div className='home_nav'>
 	      		<Link to='/home'>首页</Link>
 	      		<Link to='/trip'>主题旅行</Link>
 	      		<Link to='/hotel'>主题酒店</Link>
@@ -40,9 +36,11 @@ class App extends Component {
 	      		<Link to='/heart'>零感触发</Link>
 	      		<Link to='/register'>注册/</Link>
 	      		<Link to='/login'>登录</Link>
-						<hr/>
-						<Switch>
+						</div>
 						
+						<hr/>
+						
+						<Switch>
 						<Route path='/home' component={Home}></Route>
 						<Route path='/trip' component={Trip}></Route>
 						<Route path='/hotel' component={Hotel}></Route>
