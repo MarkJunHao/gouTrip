@@ -1,0 +1,8 @@
+.trip_main{
+	background-color: #5f5f5f;
+	position: relative;
+	padding-top: 106px;
+}
+.trip_main>div{
+	width: 1200px;
+}
