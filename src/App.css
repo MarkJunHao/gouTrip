@@ -4,16 +4,51 @@ img,fieldset{border:0; }
 img{display:block;}
 a{text-decoration:none; color:#333;}
 h1,h2,h3,h4,h5,h6{font-weight:100;}
-body{font-family:"微软雅黑";font-size: 14px;}
+body{font-family:"微软雅黑";font-size: 14px;background: #f3f5f7;}
 input,a{outline:none;}
 .home_nav{
+	position: absolute;
+	z-index:99;
+	top: 0;left: 0;right: 0;
+	width: 1200px;
+	margin: 0 auto;
+	height: 120px;
 	overflow: hidden;
+}
+.home_nav>ul{
+	height: 120px;
+	float: left;
+	
+}
+.home_nav>ul>li{
+	float: left;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 32px 5px 0;
+	margin-right: 32px;
+}
+
+
+.home_nav_right{
+	float: right;
+	margin-right: 15px;
+	height: 100%;
+	
+}
+.app_con{
+	position: relative;
+	z-index: 9;
+	width: 100%;
+}
+.app_con>img{
+	width: 100%;
 }
 a{
 	float: left;
 	margin-left:15px;
+	font-size: 16px;
+	color: #fff;
 }
 a:hover{
-	
-	color: #0000FF;
+	color: rgb(242, 175, 51);
 }

@@ -27,18 +27,22 @@ class App extends Component {
       	<Router>
       		<div>
 						<div className='home_nav'>
-	      		<Link to='/home'>首页</Link>
-	      		<Link to='/trip'>主题旅行</Link>
-	      		<Link to='/hotel'>主题酒店</Link>
-	      		<Link to='/custom'>私人订制</Link>
-	      		<Link to='/vr'>vr旅行</Link>
-	      		<Link to='/impression'>主题印象</Link>
-	      		<Link to='/heart'>零感触发</Link>
-	      		<Link to='/register'>注册/</Link>
-	      		<Link to='/login'>登录</Link>
+						<ul>
+							<li><Link to='/'></Link></li>
+		      		<li><Link to='/home'>首页</Link></li>
+		      		<li><Link to='/trip'>主题旅行</Link></li>
+		      		<li><Link to='/hotel'>主题酒店</Link></li>
+		      		<li><Link to='/custom'>私人订制</Link></li>
+		      		<li><Link to='/vr'>vr旅行</Link></li>
+		      		<li><Link to='/impression'>主题印象</Link></li>
+		      		<li><Link to='/heart'>零感触发</Link></li>
+		      	</ul>
+		      	<div className='home_nav_right'>
+		      		<Link to='/register'>注册/</Link>
+		      		<Link to='/login'>登录</Link>
 						</div>
 						
-						<hr/>
+						</div>
 						
 						<Switch>
 						<Route path='/home' component={Home}></Route>
@@ -55,7 +59,7 @@ class App extends Component {
       			</Switch>
       		</div>
       	</Router>
-
+				
       </div>
     );
   }
