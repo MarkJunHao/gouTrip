@@ -13,6 +13,7 @@ import Impression from './components/impression'
 import Register from './components/register'
 import Hotel from './components/hotel'
 
+<<<<<<< HEAD
 import weibo from './images/weibo_xl.png';
 import baijia from './images/baijia.png';
 import toutiao from './images/toutiao.png';
@@ -20,6 +21,9 @@ import weixin from './images/appGoutrip.png';
 //var active={
 //	color:'rgb(242, 175, 51)'
 //}
+=======
+
+>>>>>>> ff0b00f689e45f1362a16a9fbdf361f2ac79f31c
 class App extends Component {
 	
 	
@@ -31,6 +35,7 @@ class App extends Component {
       		<div className='nav_wrap'>
 						<div className='home_nav'>
 						<ul>
+<<<<<<< HEAD
 							<li><span className='logopic'></span></li>
 		      		<li><NavLink to='/home' activeStyle={{color:'rgb(242, 175, 51)'}}>首页</NavLink></li>
 		      		<li className='nav_sub'>
@@ -51,6 +56,19 @@ class App extends Component {
 		      		<span className='iconfont icon-gerenzhongxin'></span>
 		      		<Link to='/register'>注册</Link>
 		      		<a href='javascript:void(0)'>/</a>
+=======
+							<li><a href='/'></a></li>
+		      		<li><Link to='/home'>首页</Link></li>
+		      		<li><Link to='/trip'>主题旅行</Link></li>
+		      		<li><Link to='/hotel'>主题酒店</Link></li>
+		      		<li><Link to='/custom'>私人订制</Link></li>
+		      		<li><Link to='/vr'>vr旅行</Link></li>
+		      		<li><Link to='/impression'>主题印象</Link></li>
+		      		<li><Link to='/heart'>零感触发</Link></li>
+		      	</ul>
+		      	<div className='home_nav_right'>
+		      		<Link to='/register'>注册</Link>
+>>>>>>> ff0b00f689e45f1362a16a9fbdf361f2ac79f31c
 		      		<Link to='/login'>登录</Link>
 						</div>
 						</div>
@@ -66,6 +84,7 @@ class App extends Component {
 						<Route path='/heart' component={Heart}></Route>
 						<Route path='/register' component={Register}></Route>
 						<Route path='/login' component={Login}></Route>
+						
       			<Redirect to='/home'/>
       			</Switch>
       		</div>
@@ -128,4 +147,9 @@ class App extends Component {
 		 });
 	}
 }
+<<<<<<< HEAD
 export default App;
+=======
+
+export default App;
+>>>>>>> ff0b00f689e45f1362a16a9fbdf361f2ac79f31c
