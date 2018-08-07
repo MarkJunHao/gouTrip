@@ -1,3 +1,10 @@
+.nav_wrap{
+	background: #fff;
+}
+.nav_wrap a{
+	color: #000000;
+}
+
 .trip_main{
 	background-color: #f5f5f5;
 	position: relative;
