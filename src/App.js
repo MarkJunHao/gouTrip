@@ -19,6 +19,7 @@ import baijia from './images/baijia.png';
 import toutiao from './images/toutiao.png';
 import weixin from './images/appGoutrip.png';
 
+
 class App extends Component {
 	
 	
@@ -30,7 +31,8 @@ class App extends Component {
       		<div className='nav_wrap'>
 						<div className='home_nav'>
 						<ul>
-							<li><span className='logopic'></span></li>
+
+						<li><span className='logopic'></span></li>
 		      		<li><NavLink to='/home' activeStyle={{color:'rgb(242, 175, 51)'}}>首页</NavLink></li>
 		      		<li className='nav_sub'>
 		      			<NavLink to='/trip' activeStyle={{color:'rgb(242, 175, 51)'}}>主题旅行<i className='iconfont icon-extend'></i></NavLink>
@@ -49,7 +51,7 @@ class App extends Component {
 		      	<div className='home_nav_right'>
 		      		<span className='iconfont icon-gerenzhongxin'></span>
 		      		<Link to='/register'>注册</Link>
-		      		<a href='javascript:void(0)'>/</a>
+		      		<a href='/'>/</a>
 		      		<Link to='/login'>登录</Link>
 						</div>
 						</div>
