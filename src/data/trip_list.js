@@ -17,7 +17,7 @@ Random.extend({
 })
 
 Mock.mock('http://http://www.goutrip.com/trip',{
-	'list|40':[
+	'list|8':[
 		{
 			'id|+1':0,
 			'title':'@ctitle(10,20)',

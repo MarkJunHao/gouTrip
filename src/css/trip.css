@@ -2,6 +2,7 @@
 	background-color: #f5f5f5;
 	position: relative;
 	padding-top: 106px;
+	overflow: hidden;
 }
 .trip_main>div{
 	width: 1200px;
@@ -357,4 +358,7 @@ span.address{
 	height: 14px;
 	vertical-align: middle;
 	background: url(../images/Pro_List_01_e56fbd2.png);
+}
+.ant-pagination {
+	margin-bottom: 30px!important;
 }

@@ -13,7 +13,7 @@ import Impression from './components/impression'
 import Register from './components/register'
 import Hotel from './components/hotel'
 
-<<<<<<< HEAD
+
 import weibo from './images/weibo_xl.png';
 import baijia from './images/baijia.png';
 import toutiao from './images/toutiao.png';
@@ -56,19 +56,6 @@ class App extends Component {
 		      		<span className='iconfont icon-gerenzhongxin'></span>
 		      		<Link to='/register'>注册</Link>
 		      		<a href='javascript:void(0)'>/</a>
-
-							<li><a href='/'></a></li>
-		      		<li><Link to='/home'>首页</Link></li>
-		      		<li><Link to='/trip'>主题旅行</Link></li>
-		      		<li><Link to='/hotel'>主题酒店</Link></li>
-		      		<li><Link to='/custom'>私人订制</Link></li>
-		      		<li><Link to='/vr'>vr旅行</Link></li>
-		      		<li><Link to='/impression'>主题印象</Link></li>
-		      		<li><Link to='/heart'>零感触发</Link></li>
-		      	</ul>
-		      	<div className='home_nav_right'>
-		      		<Link to='/register'>注册</Link>
-
 		      		<Link to='/login'>登录</Link>
 						</div>
 						</div>
@@ -147,9 +134,5 @@ class App extends Component {
 		 });
 	}
 }
-<<<<<<< HEAD
-export default App;
-=======
 
 export default App;
->>>>>>> ff0b00f689e45f1362a16a9fbdf361f2ac79f31c
