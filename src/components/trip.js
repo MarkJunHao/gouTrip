@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/trip.css'
+
 import 'antd/dist/antd.css';
 import { Menu, Dropdown, Icon, message,Pagination } from 'antd';
 import $ from 'jquery'

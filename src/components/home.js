@@ -1,8 +1,5 @@
 import React from 'react'
-
-
 import home_01 from '../images/home_01.png'
-
 
 class Home extends React.Component{
 	
@@ -11,9 +8,7 @@ class Home extends React.Component{
 			<div>
 		
 			<div className='app_con'>
-
 				<img src={home_01} alt='logo'/>
-			
 			</div>
 			
 			</div>
