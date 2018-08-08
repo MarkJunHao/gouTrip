@@ -9,6 +9,7 @@ class Trip extends React.Component{
         return (
             <div>
                 <h1>Trip</h1>
+                <h2>你好啊</h2>
             </div>
         )
     }
