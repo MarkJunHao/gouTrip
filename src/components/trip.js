@@ -43,7 +43,7 @@ class Trip extends React.Component{
 //				})
 			}
 		})
-		$('.nav_wrap').css('background','#fff')
+	
 	
 		
 		
