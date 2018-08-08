@@ -1,0 +1,207 @@
+.zwj-container{
+    width: 100%;
+    background-image: url(../images/bg_729b485.jpg);
+}
+.zwj-container .head{
+    height: 42px;
+    box-sizing: content-box;
+    padding: 22px 31px;
+    margin-bottom: 35px;
+}
+.zwj-container .head span{
+    float: right;
+    font-size: 12px;
+    color: #aecdda;
+    line-height: 42px;
+}
+.zwj-container .main{
+    width: 368px;
+    margin: 0 auto;
+    background: rgba(6,49,77,.8);
+}
+
+.zwj-container .main  .title{
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    padding: 23px 0 24px;
+}
+.zwj-container .main .line {
+    width: 100%;
+    border-top: 2px rgba(255,255,255,.2) solid;
+}
+.zwj-container .main .content {
+    position: relative;
+    z-index: 1000;
+}
+.zwj-container .main .content li:first-child {
+    margin-top: 23px;
+}
+.zwj-container .main .content li {
+    position: relative;
+    outline: 0;
+    width: 320px;
+    height: 38px;
+    background: rgba(6,49,77,.7);
+    border: 1px solid #06314d;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin: 24px auto;
+}
+.zwj-container .main .content li .person {
+    background: url(../images/person_002b3e5.png) no-repeat center;
+}
+.zwj-container .main .content li i {
+    float: left;
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    background: #06314d;
+    font-size: 13px;
+}
+.zwj-container .main .content li input {
+    float: left;
+    height: 38px;
+    width: 280px;
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    outline: 0;
+}
+.zwj-container .main .content li .error {
+    display: none;
+    border: 1px solid #ffb4a8;
+    position: absolute;
+    top: -26px;
+    left: 0;
+    line-height: 24px;
+    width: 318px;
+    height: 24px;
+    background: #fef2f2;
+    font-size: 12px;
+    color: #5c5c5c;
+}
+.zwj-container .main .content li .error i {
+    background: url(../images/error_2b334ce.png) no-repeat 10px 4px
+}
+.zwj-container .main .content li .delete {
+    cursor: pointer;
+    display: none;
+    height: 18px;
+    width: 18px;
+    background: url(/static/home/widget/login/register/image/delete_886c72a.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.zwj-container .main .content li .password {
+    background: url(../images/password_71cdac0.png) no-repeat center;
+}
+.zwj-container .main .content .getCode {
+    background: 0 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.zwj-container .main .content .getCode #imgCode, .zwj-container .main .content .getCode #mobileVerify {
+    padding-left: 8px;
+    width: 192px;
+    background: rgba(6,49,77,.7);
+    border: 1px solid #06314d;
+}
+.zwj-container .main .content .getCode #checkCode {
+    display: inline-block;
+    color: #6b6b6b;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 20px;
+    background: #FFF;
+    margin-left: 16px;
+    width: 100px;
+}
+.zwj-container .main .content .getCode #getCode {
+    color: #cacaca;
+    border: 0;
+    outline: 0;
+    margin-left: 16px;
+    width: 100px;
+    height: 38px;
+    background: #0689f3;
+}
+.zwj-container .main .main_btm {
+    width: 320px;
+    margin: 0 auto;
+}
+.zwj-container .main .main_btm .ipt {
+    margin-top: 25px;
+    color: #b1b1b1;
+    font-size: 12px;
+}
+
+.zwj-container .main .main_btm .btn #zhuce {
+    margin-top: 17px;
+    color: #FFF;
+    border: 0;
+    outline: 0;
+    width: 320px;
+    height: 42px;
+    background: #0689f3;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.zwj-container .main .bottom {
+    width: 320px;
+    height: 49px;
+    margin: 0 auto;
+    text-align: center;
+}
+.zwj-container .main .bottom .otherLogin {
+    margin-top: 12px;
+    float: left;
+    display: inline-block;
+    width: 63%;
+}
+.zwj-container .main .bottom .otherLogin a {
+    display: inline-block;
+    margin-right: 7px;
+}
+.zwj-container .main .bottom .otherLogin a img {
+    float: left;
+    margin-right: 6px;
+}
+.zwj-container .main .bottom .otherLogin a span {
+    float: left;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.zwj-container .main .bottom .otherLogin .weiXin {
+    color: #b1b1b1;
+    cursor: pointer;
+}
+.zwj-container .main .bottom .otherLogin .weiXin b {
+    font-style: normal;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: top;
+}
+.zwj-container .main .bottom .enter {
+    margin-top: 12px;
+    float: left;
+    display: inline-block;
+    width: 37%;
+    font-size: 14px;
+    text-align: right;
+}
+.zwj-container .main .bottom .enter span {
+    color: #b1b1b1;
+}
+.zwj-container .main .bottom .enter a {
+    display: inline-block;
+    color: #f4ad2e;
+}
+.zwj-container .main .main_btm .ipt a {
+    display: inline-block;
+    color: #0689f3;
+}
+
