@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/trip.css'
-import { Menu, Dropdown, Icon, message } from 'antd';
+//import { Menu, Dropdown, Icon, message } from 'antd';
 
 import bgImage from '../images/b3c257f1a5c5d48457ca788a011039.jpg'
 import bgImage2 from '../images/2.png'

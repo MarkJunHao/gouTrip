@@ -13,6 +13,8 @@ import Vr from './components/vr'
 import Impression from './components/impression'
 import Register from './components/register'
 import Hotel from './components/hotel'
+import Collect from './components/collect'
+import Upload from './components/upload'
 
 
 class App extends Component {
@@ -44,12 +46,13 @@ class App extends Component {
 						<Route path='/trip' component={Trip}></Route>
 						<Route path='/hotel' component={Hotel}></Route>
 						<Route path='/custom' component={Custom}></Route>
-						<Route path='/vr' component={Vr}></Route>
+						<Route exact path='/vr' component={Vr}></Route>
 						<Route path='/impression' component={Impression}></Route>
 						<Route path='/heart' component={Heart}></Route>
 						<Route path='/register' component={Register}></Route>
 						<Route path='/login' component={Login}></Route>
-						
+						<Route exact path='/vr/collect' component={Collect}></Route>
+						<Route exact path='/vr/upload' component={Upload}></Route>
       			<Redirect to='/home'/>
       			</Switch>
       		</div>
