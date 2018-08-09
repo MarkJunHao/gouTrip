@@ -8,6 +8,9 @@
     padding: 22px 31px;
     margin-bottom: 35px;
 }
+.zwj-container .head img{
+	display: inline-block;
+}
 .zwj-container .head span{
     float: right;
     font-size: 12px;
@@ -33,6 +36,7 @@
 .zwj-container .main .content {
     position: relative;
     z-index: 1000;
+    padding: 0;
 }
 .zwj-container .main .content li:first-child {
     margin-top: 23px;
@@ -65,6 +69,7 @@
     width: 280px;
     background: 0 0;
     border: 0;
+    
     color: #fff;
     outline: 0;
 }
@@ -97,6 +102,7 @@
 }
 .zwj-container .main .content li .password {
     background: url(../images/password_71cdac0.png) no-repeat center;
+    padding-left: 0;
 }
 .zwj-container .main .content .getCode {
     background: 0 0;

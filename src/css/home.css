@@ -20,5 +20,432 @@
     background: #2f70b0;width: 100%;
 }
 .ant-carousel .slick-dots li button {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 100%;height: 5px;
+}
+.app_con{
+	background: #fff;
+}
+div,h3,p,ul,li{
+	box-sizing: border-box;
+}
+.home_sou{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 65px 0;
+	position: relative;
+	background: #fff;
+	
+}
+.home_titles{
+	text-align: center;
+}
+.home_titles h2 {
+    font-size: 26px;
+    color: #2f71b0;
+    font-weight: 400;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+/*搜索框*/
+.searchBox {
+    width: 602px;
+    height: 40px;
+    margin: 19px auto 0;
+    border-radius: 1px;
+    position: relative;
+}
+.searchBox input{
+	outline: 0;
+    border: 0;
+}
+.searchBox .searchInput {
+    width: 530px;
+    height: 100%;
+    font-size: 18px;
+    color: #999;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #2f71b0;
+    padding-left: 15px;
+    font-size: 14px;
+    position: relative;
+    z-index: 10;
+}
+.searchIcon {
+	
+    width: 72px;
+    height: 100%;
+    color: #fff;
+    background-color: #2f71b0;
+}
+/*搜索框列表*/
+.searchList {
+    width: 88%;
+    padding: 0 15px 10px;
+    display: none;
+    position: absolute;
+    z-index: 9;
+    margin-top: 40px;
+    background: #fff;
+    border: 0;
+    box-shadow: 2px 2px 10px #ccc;
+}
+.ol-inner {
+    width: 100%;
+    overflow: hidden;
+    max-height: 80px;
+}
+.search-title {
+    color: #3f79af;
+    font-size: 16px;
+    padding: 20px 0 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.seach-history-inner {
+    padding: 10px 0 0;
+}
+.searchList li {
+    color: #666;
+    font-size: 14px;
+    float: left;
+    padding: 3px 20px 0 0;
+    cursor: pointer;
+    display: inline-block;
+}
+.searchList li a {
+    color: #666;
+}
+/*够主题*/
+.goutrip {
+    width: 100%;
+    background-color: #f3f5f7;
+}
+.goutrip .content {
+    padding: 65px 0 45px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.content {
+    padding: 65px 0;
+    position: relative;
+}
+.sub-title {
+    padding: 20px 0 41px;
+    color: #333;
+    font-size: 18px;
+}
+
+.sub-title {
+    padding: 22px 0 21px;
+}
+.imgTxtList {
+    width: 1200px;
+    overflow: hidden;
+    height: 581px;
+    /*padding: 20px 0;*/
+}
+#themesType {
+   width: 3800px;
+    position: relative;
+}
+.Items {
+    margin-right: 36px;
+    height: 541px;
+    width: 376px;
+    float: left;
+    transition: all .5s;
+    
+}
+.Items:hover{
+	transform: translateY(-5px);
+	box-shadow:0 5px 20px 0 RGBA(62,71,79,.44);
+}
+.list {
+    float: left;
+}
+.list>a {
+    width: 100%;
+    height: 100%;
+}
+.Items img {
+    height: 408px;border: 0;
+    display: block!important;
+}
+ul img {
+    transition: all 1s;
+}
+.Items .popC {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+.Items .popC .themesName {
+    color: #2f71b0;
+    font-size: 22px;
+    padding-top: 28px;
+    margin-bottom: 0;
+}
+.Items .popC .themesDes {
+    font-size: 14px;
+    color: #666;
+    border-top: 1px dashed #e1e1e1;
+    padding: 14px 0 25px;
+    margin: 18px auto 0;
+    display: inline-block;
+}
+.Items:first-child{
+    margin-left: 12px;
+}
+.prevNext i {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+}
+.prevBtn {
+    left: -20px;
+    background: url(../images/left_jian.png) no-repeat;
+}
+.nextBtn {
+    right: -33px;
+    background: url(../images/right_jian.png) no-repeat;
+}
+/*购产品*/
+.Boutique {
+    width: 100%;
+    	background: #fff;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.list2 {
+    margin: 0 24px 26px 0;
+    width: 384px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.list2:nth-child(3), .list2:nth-child(6) {
+    margin-right: 0;
+}
+.showPic {
+    width: 100%;
+    height: 100%;
+}
+.home_bgImage:hover{
+	transform: scale(1.2);
+}
+.pop2 {
+    height: 68px;
+    background: url(../images/list-bg.png);
+    text-align: left;
+    padding: 13px;
+    font-size: 17px;
+}
+.pop {
+    width: 100%;
+    color: #fff;
+    bottom: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: absolute;
+}
+.pop p{
+	margin: 0;
+}
+.pop2 p a {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    color: #fff;
+}
+.pop2 h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.pop h5 a {
+    color: #f2af33;
+}
+.themes-more {
+    color: #2f71b0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 32px;
+    background: url(../images/home_more.png) no-repeat 100% 80%;
+    margin: 0 auto;
+    width: 85px;
+    padding-top: 12px;
+}
+/*够私人定制*/
+.private {
+    width: 100%;
+    background-color: #f3f5f7;
+    position: relative;
+}
+.outBox {
+    width: 100%;
+    overflow: hidden;
+    transition:all 1s;
+}
+.outBox .excellent {
+    width: 1200px;
+    margin: 0;
+}
+.excellent li {
+    width: 1200px;
+    height: 500px;
+    float: left;
+    margin: 0 35px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+.excellentM {
+    width: 664px;
+    height: 500px;
+}
+.exceMic {
+    width: 536px;
+    background-color: #fff;
+    padding-left: 27px;
+}
+.exceMic .userInfo {
+    padding: 37px 0 20px;
+}
+.exceMic .userInfo .userHead {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.exceMic .userInfo .userName {
+    padding-left: 12px;
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+}
+.exceMic .leaving {
+    padding-bottom: 32px;
+}
+.exceMic .leaving .prevQuotes {
+    /*background: url(/static/home/widget/home/images/yinhao2_9abf765.png) no-repeat 100%;*/
+}
+.exceMic .leaving .nextQuotes {
+    /*background: url(/static/home/widget/home/images/yinhao1_2f830b2.png) no-repeat 0;*/
+    padding: 0 27px 3px 0;
+}
+.exceMic .leaving i {
+    display: inline-block;
+    width: 23px;
+    height: 21px;
+}
+.exceMic .leaving .leavingInner {
+    color: #2f71b0;
+    font-size: 16px;
+    padding: 0 39px;
+    height: 129px;
+    overflow: hidden;
+}
+.exceMic .leaving .leavingInner span {
+    line-height: 34px;
+}
+.exceMic .leave {
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.exceMic .prodInfo {
+    background-color: #f5f7f9;
+    width: 420px;
+    padding: 15px 0 16px;
+    margin-bottom: 38px;
+    margin-left: 39px;
+}
+.exceMic .prodInfo .prodTitle {
+    font-size: 16px;
+    color: #333;
+    padding: 0 10px 17px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.exceMic .prodInfo .leaveDay {
+    padding: 0 60px 11px 25px;
+    font-size: 14px;
+    color: #666;
+    margin-left: 11px;
+    /*background: url(/static/home/widget/home/images/xingcheng_85e63b4.png) no-repeat 0 25%;*/
+}
+.exceMic .prodInfo i {
+    font-style: normal;
+    color: #f4ad2e;
+}
+.exceMic .prodInfo .leaveBudget {
+    font-size: 14px;
+    color: #666;
+    margin-left: 11px;
+    /*background: url(/static/home/widget/home/images/yusuan_ee1379d.png) no-repeat 0 57%;*/
+    padding-left: 25px;
+}
+.private .themes-more {
+    width: 135px;
+    margin-top: 26px;
+}
+.outBox:hover{
+	box-shadow:0 12px 20px 0 RGBA(62,71,79,.44);
+	transform:translateY(-2px);
+}
+/*购服务*/
+.intimateServ{
+	background: #fff;
+}
+.serviceList {
+    margin: 18px 0 75px;
+}
+.serviceList li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.circle {
+    width: 121px;
+    display: inline-block;
+    height: 121px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 18px 20px;
+    margin: auto;
+}
+.paragraph {
+    padding-top: 40px;
+    font-size: 18px;
+}
+.paragraph p {
+    margin-top: 8px;
+    font-weight: lighter;
+}
+.lets {
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: lighter;
+>>>>>>> 9e9f8a2deb9a96f25b77d18d81403e51da0314d0
 }
