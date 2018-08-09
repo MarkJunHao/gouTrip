@@ -16,7 +16,8 @@ import Vr from './components/vr'
 import Impression from './components/impression'
 import Register from './components/register'
 import Hotel from './components/hotel'
-
+import Product from './components/product'
+import Detail from './components/detail'
 
 import weibo from './images/weibo_xl.png';
 import baijia from './images/baijia.png';
@@ -113,7 +114,7 @@ class App extends Component {
 						
 				<Switch>
 					<Route path='/home' component={Home}></Route>
-					<Route path='/trip' component={Trip}></Route>
+					<Route exact path='/trip' component={Trip}></Route>
 					<Route path='/hotel' component={Hotel}></Route>
 					<Route path='/custom' component={Custom}></Route>
 					<Route path='/vr' component={Vr}></Route>
@@ -121,14 +122,15 @@ class App extends Component {
 					<Route path='/heart' component={Heart}></Route>
 					<Route path='/register' component={Register}></Route>
 					<Route path='/login' component={Login}></Route>
-				
+
+					<Route exact path='/trip/product' component={Product}></Route>
+					
       				<Redirect to='/home'/>
       			</Switch>
       			
       		</div>
       	</Router>
-				
-				
+		
 			<footer>
 				<div className='app_btm'>
 					<div className='app_btm_left'>

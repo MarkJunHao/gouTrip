@@ -45,6 +45,7 @@ class Herat extends React.Component{
 	render(){
 		return(
 			<div>
+			<div style={{"background":"#040b20","minWidth":"1000px"}}>
 				<div className="heart_title" >
 				    <img className="img" src={a33} alt=""/>
 				</div>
@@ -106,13 +107,13 @@ class Herat extends React.Component{
 				    <div className="foot_last_con">
 				        <div className="foot_last_top clearfix">
 				            <div className="foot_last_name fl">
-				                <input className="fl" type="text" name="" id="name" placeholder="姓名"/>
+				                <input className="fl name2" type="text" name="" placeholder="姓名"/>
 				            </div>
 				            <div className="foot_last_region fl">
-				                <input className="fl" type="text" name="" id="termini" placeholder="海外目的地"/>
+				                <input className="fl termini2" type="text" name=""  placeholder="海外目的地"/>
 				            </div>
 				            <div className="foot_last_day fl">
-				                <input className="fl" type="text" name="" id="days" placeholder="天数"/>
+				                <input className="fl days2" type="text" name="" placeholder="天数"/>
 				            </div>
 				        </div>
 				        <div className="foot_last_in clearfix">
@@ -129,7 +130,7 @@ class Herat extends React.Component{
 				    </div>
 				</div>
 			</div>
-			
+			</div>
 		)
 	}
 }
