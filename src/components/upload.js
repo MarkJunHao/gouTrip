@@ -10,7 +10,6 @@ class Upload extends React.Component{
 	
 	render(){
 		return(
-			<div>
 				<div className="upload_content">
 					<div className="upload_left">
 						<p className="upload_title">发布VR旅行视频</p>
@@ -51,7 +50,6 @@ class Upload extends React.Component{
 						</p>
 					</div>
 				</div>
-			</div>
 		)
 	}
 }

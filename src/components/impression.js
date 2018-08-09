@@ -16,7 +16,12 @@ class Impression extends React.Component{
 	constructor (props){
 		super(props);
 	}
-	
+//	constructor (props){
+//		super(props);
+//		
+//		
+//		
+//	}
 	render(){
 		return(
 			<div>
@@ -61,7 +66,7 @@ class Impression extends React.Component{
 					
 					{/*摄影*/}
 					
-					<div className="impression_camera clearfix impression_model rgba">
+					<div className="impression_camera clearfix impression_model rgba1">
 						<video className="video_1" preload="metadata" src="http://image.goutrip.com/video2/sheying.mp4" controls="controls"></video>
 						<img src={img2} className="videoPlayBtn" />
 						<img src={img5} className="impression_cameraTag modelTip" />
@@ -93,7 +98,7 @@ class Impression extends React.Component{
 					
 					{/*亲子*/}
 					
-					<div className="impression_parent clearfix impression_model rgba">
+					<div className="impression_parent clearfix impression_model rgba2">
 						<video className="video_1" preload="metadata" src="http://image.goutrip.com/video2/qinzi.mp4" controls="controls"></video>
 						<img src={img2} className="videoPlayBtn" />
 						<img src={img7} className="impression_cameraTag modelTip" />
@@ -114,7 +119,7 @@ class Impression extends React.Component{
 					<div className="impression_selfDring clearfix impression_model">
 						<video className="video_3 fl" preload="metadata" src="http://image.goutrip.com/video2/zijia.mp4" controls="controls"></video>
 						<img src={img2} className="videoPlayBtn" />
-						<img src={img7} className="impression_selfDringTag modelTip" />
+						<img src={img8} className="impression_selfDringTag modelTip" />
 						<div className="impression_plate_4 fr">
 							<p className="impression_title">有一种旅行的乐趣叫在路上</p>
 							<p className="impression_subTitle">一辆车 , 一群人 , 贯穿着整个旅程 , 是速度与激情 , 也是灵魂的乌托邦.</p>

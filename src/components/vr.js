@@ -19,7 +19,7 @@ class Vr extends React.Component{
 	}
 	
 	tap(){
-		this.props.history.push("vr/collect")
+		this.props.history.push("/vr/collect")
 	}
 	
 	render(){
@@ -44,7 +44,7 @@ class Vr extends React.Component{
 						{
 							this.state.arr.map(function(item,i){
 								return (
-										<a href="/play">
+										<a href="/play" key={i}>
 											<div className="vr_video">
 												<div className="vr_cover">
 													<img src={item.img1} />
