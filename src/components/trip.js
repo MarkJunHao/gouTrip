@@ -1,10 +1,12 @@
 import React from 'react'
 import '../css/trip.css'
-
+//import { Menu, Dropdown, Icon, message } from 'antd';
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Menu, Dropdown, Icon, message,Pagination } from 'antd';
 import $ from 'jquery'
 import '../data/trip_list.js'
+
 
 import bgImage from '../images/b3c257f1a5c5d48457ca788a011039.jpg'
 import bgImage2 from '../images/2.png'
@@ -43,11 +45,8 @@ class Trip extends React.Component{
 //				})
 			}
 		})
-	
-	
-		
-		
 	}
+	
 	
 	render(){
 		return(
@@ -135,7 +134,7 @@ class Trip extends React.Component{
 										</p>
 									</div>
 									<p>
-										<a href='#'>更多</a>
+									<a href='/trip/product'>更多</a>
 									</p>
 								</div>
 							</div>
@@ -176,42 +175,38 @@ class Trip extends React.Component{
 							</div>
 							
 							{/*主题产品列表*/}
-							
-							
-								
-								
-									<div className="J_list">
-										<div className="connect">
-											{/*每一小块内容*/}
-										
-											{
-												this.state.arr.map(function(item,i){
-												return(
-													
-													<div key={i}>
-														<a href='#' target='_blank'>
-															<img className ='l_img1' src={item.img}/>
-														</a>
-														<p>
-															<a href='#' target='_blank'>{item.title}</a>
-														</p>
-														<p> 
-															<span className='money'>
-																<strong>{item.price}&nbsp;</strong>元起/人
-															</span>
-															<span className='address'>
-																<span className='mapIcon'></span>
-																&nbsp;出发地 : {item.address}
-															</span>
-														</p>
-													</div>
-													
-													)
-												})
+								<div className="J_list">
+									<div className="connect">
+										{/*每一小块内容*/}
+									
+										{
+											this.state.arr.map(function(item,i){
+											return(
 												
-											}
-										</div>
+												<div key={i}>
+													<a href={'/detail?id='+item.id} >
+														<img className ='l_img1' src={item.img}/>
+													</a>
+													<p>
+														<a href='#' target='_blank'>{item.title}</a>
+													</p>
+													<p> 
+														<span className='money'>
+															<strong>{item.price}&nbsp;</strong>元起/人
+														</span>
+														<span className='address'>
+															<span className='mapIcon'></span>
+															&nbsp;出发地 : {item.address}
+														</span>
+													</p>
+												</div>
+												
+												)
+											})
+											
+										}
 									</div>
+								</div>
 								
 							
 							{
@@ -222,22 +217,6 @@ class Trip extends React.Component{
 						{/*主题右侧结束*/}
 					</div>
 				</div>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 				
 				
 			</div>

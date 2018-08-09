@@ -12,6 +12,11 @@ class Regist extends React.Component{
         super(props)
     }
 
+	componentDidMount(){
+		$('.nav_wrap').attr("display","none")
+	}
+
+
     render(){
         return (
             <div className="zwj-container">

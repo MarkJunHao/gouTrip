@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f3f5f7;
+}
+.impression_banner>img{
+	width: 100%;
+	height: 100%;
+}
+.impression_main{
+	margin-bottom: 180px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*main*/
+.impression_model{
+	padding-top: 70px;
+    position: relative;
+    cursor: pointer;
+}
+.clearfix::before{
+	content: "";
+	display: table;
+}
+.video_0{
+	width: 760px;
+    height: 427px;
+    box-shadow: -5px 0 13px 5px rgba(93,105,118,.35);
+}
+.fl{
+	float: left;
+}
+.videoPlayBtn{
+	position: absolute;
+    width: 90px;
+    z-index: 3;
+    height: 90px;
+    top: 50%;
+    left: 26%;
+    cursor: pointer;
+}
+.impression_plate{
+	width: 440px;
+    height: 428px;
+    background: #fff;
+    box-shadow: 5px 0 13px 5px rgba(93,105,118,.35);
+}
+.fr{
+	float: right;
+}
+.impression_title{
+	color: #333;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    width: 171px;
+    text-align: center;
+    margin: 140px auto 26px;
+    cursor: pointer;
+}
+.impression_subTitle{
+	color: #666;
+    font-size: 16px;
+    margin: 0 auto 60px;
+    width: 338px;
+}
+.impression_btn1{
+	font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 140px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+.modelTip{
+	position: absolute;
+    width: 283px;
+    height: 124px;
+    top: 14px;
+    z-index: 5;
+}
+.impression_divingTag{
+	right: 75px;
+}
+.impression_surgingTag{
+	left: 30px;
+}
+.rgba1{
+	background-color: rgba(0,0,0,.2);
+    padding-top: 0;
+    margin-top: 70px;
+}
+.rgba2{
+	background-color: rgba(0,0,0,.2);
+    padding-top: 0;
+    margin-top: 150px;
+}
+.video_1{
+	width: 1200px;
+	height: 675px;
+	box-shadow: 0 0 13px 5px rgba(93,105,118,.35);
+}
+.impression_camera .videoPlayBtn{
+	left: 44%;
+    top: 45%;
+}
+.impression_cameraTag{
+	right: 27px;
+    top: -55px;
+}
+.impression_plate_3{
+	position: absolute;
+    width: 100%;
+    z-index: 6;
+    text-align: center;
+    bottom: 40px;
+}
+.impression_title_1{
+	width: 240px;
+    color: #fff;
+    font-size: 24px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.impression_subTitle_1{
+	width: 500px;
+    color: #fff;
+    margin: auto;
+    padding: 25px 0;
+}
+.impression_plate_3 .impression_btn1{
+	color: #fff;
+    border: 1px solid #fff;
+}
+.impression_honey{
+	position: relative;
+	height: 486px;
+}
+.impression_honeyTag{
+	left: 76px;
+}
+.impression_plate_2{
+	width: 512px;
+    height: 429px;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 0 0 13px 5px rgba(93,105,118,.35);
+    padding-right: 50px;
+}
+.impression_honey .impression_title{
+	width: 196px;
+}
+.video_2{
+	width: 775px;
+    height: 436px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    box-shadow: 5px 0 13px 5px rgba(93,105,118,.35);
+    right: 0;
+}
+.impression_honey .videoPlayBtn{
+	left: 66%;
+}
+.impression_parent .videoPlayBtn{
+	left: 44%;
+    top: 45%;
+}
+.impression_selfDring{
+	height: 556px;
+	position: relative;
+}
+.video_3{
+	width: 775px;
+    height: 436px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    box-shadow: -5px 0 13px 5px rgba(93,105,118,.35);
+}
+.impression_plate_4{
+	width: 512px;
+    height: 429px;
+    z-index: -2;
+    background-color: #fff;
+    box-shadow: 0 0 13px 5px rgba(93,105,118,.35);
+    padding-left: 85px;
+}
+.impression_plate_4 .impression_title{
+	width: 295px;
+}
+.impression_plate_4 .impression_subTitle{
+	width: 256px;
+}
+.impression_selfDringTag{
+	right: 75px;
+}
+.impression_skiing{
+	padding-bottom:210px ;
+}
+.impression_skiing .impression_title{
+	width: 270px;
+}
+.impression_skiing .impression_subTitle{
+	width: 262px;
+}
+.impression_skiing .videoPlayBtn{
+	left: 66%;
+}
