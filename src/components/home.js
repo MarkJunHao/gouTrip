@@ -45,7 +45,8 @@ class Home extends React.Component{
 	}
 	componentDidMount(){
 		var _this=this;
-		$('.nav_wrap').removeClass('nav_wrap_trip');
+		$('.nav_wrap').removeClass('nav_wrap_trip').css('display','block');
+		
 		$('.searchInput').focus(function(){
 			$('.searchList').css('display','block');
 		});
