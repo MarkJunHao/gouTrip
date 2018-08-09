@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/register.css'
+import '../css/regist.css'
 import logo from '../images/logo_e29ae78.png'
 import qq from '../images/QQ_016bd05.png'
 import wechat from '../images/weiX_3b51568.png'

@@ -70,7 +70,7 @@ class App extends Component {
 		      							return(
 		      								<div className="drop-module clearfix fl" key={i}>
 									            <p className="drop-module-title clearfix">
-									                <img className="type-img" src="http://image.goutrip.com/eb/ebeca8f8ff392d9b09a5e0a6326831.png" alt="daohang"/>
+									                <img className="type-img" src="http://image.goutrip.com/eb/ebeca8f8ff392d9b09a5e0a6326831.png"/>
 									                <span className="module-title-name fl" >{item.tit}</span>
 									                <span className="module-title-more fr" >更多</span>
 									            </p>

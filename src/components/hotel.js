@@ -27,9 +27,6 @@ class Hotel extends React.Component{
 		var count = 0;
 		var $li = $("#slider>ul>li");
 		
-		
-		$('.nav_wrap').addClass('nav_wrap_trip')
-		
 		$(".slider_icon i").mouseenter(function(){
 			$(this).stop().addClass('btn_act').siblings().stop().removeClass("btn_act");
 			$li.eq($(this).index()).stop().fadeIn().siblings().stop().fadeOut();
