@@ -55,11 +55,11 @@ div,h3,p,ul,li{
     border-radius: 1px;
     position: relative;
 }
-input{
+.searchBox input{
 	outline: 0;
     border: 0;
 }
-.searchInput {
+.searchBox .searchInput {
     width: 530px;
     height: 100%;
     font-size: 18px;
@@ -208,11 +208,11 @@ ul img {
     background-size: 40px;
 }
 .prevBtn {
-    left: -25px;
+    left: -20px;
     background: url(../images/left_jian.png) no-repeat;
 }
 .nextBtn {
-    right: -30px;
+    right: -33px;
     background: url(../images/right_jian.png) no-repeat;
 }
 /*购产品*/
@@ -238,7 +238,7 @@ ul img {
     width: 100%;
     height: 100%;
 }
-.bgImage:hover{
+.home_bgImage:hover{
 	transform: scale(1.2);
 }
 .pop2 {
@@ -283,4 +283,159 @@ ul img {
     margin: 0 auto;
     width: 85px;
     padding-top: 12px;
+}
+/*够私人定制*/
+.private {
+    width: 100%;
+    background-color: #f3f5f7;
+    position: relative;
+}
+.outBox {
+    width: 100%;
+    overflow: hidden;
+    transition:all 1s;
+}
+.outBox .excellent {
+    width: 1200px;
+    margin: 0;
+}
+.excellent li {
+    width: 1200px;
+    height: 500px;
+    float: left;
+    margin: 0 35px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+.excellentM {
+    width: 664px;
+    height: 500px;
+}
+.exceMic {
+    width: 536px;
+    background-color: #fff;
+    padding-left: 27px;
+}
+.exceMic .userInfo {
+    padding: 37px 0 20px;
+}
+.exceMic .userInfo .userHead {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.exceMic .userInfo .userName {
+    padding-left: 12px;
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+}
+.exceMic .leaving {
+    padding-bottom: 32px;
+}
+.exceMic .leaving .prevQuotes {
+    /*background: url(/static/home/widget/home/images/yinhao2_9abf765.png) no-repeat 100%;*/
+}
+.exceMic .leaving .nextQuotes {
+    /*background: url(/static/home/widget/home/images/yinhao1_2f830b2.png) no-repeat 0;*/
+    padding: 0 27px 3px 0;
+}
+.exceMic .leaving i {
+    display: inline-block;
+    width: 23px;
+    height: 21px;
+}
+.exceMic .leaving .leavingInner {
+    color: #2f71b0;
+    font-size: 16px;
+    padding: 0 39px;
+    height: 129px;
+    overflow: hidden;
+}
+.exceMic .leaving .leavingInner span {
+    line-height: 34px;
+}
+.exceMic .leave {
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.exceMic .prodInfo {
+    background-color: #f5f7f9;
+    width: 420px;
+    padding: 15px 0 16px;
+    margin-bottom: 38px;
+    margin-left: 39px;
+}
+.exceMic .prodInfo .prodTitle {
+    font-size: 16px;
+    color: #333;
+    padding: 0 10px 17px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.exceMic .prodInfo .leaveDay {
+    padding: 0 60px 11px 25px;
+    font-size: 14px;
+    color: #666;
+    margin-left: 11px;
+    /*background: url(/static/home/widget/home/images/xingcheng_85e63b4.png) no-repeat 0 25%;*/
+}
+.exceMic .prodInfo i {
+    font-style: normal;
+    color: #f4ad2e;
+}
+.exceMic .prodInfo .leaveBudget {
+    font-size: 14px;
+    color: #666;
+    margin-left: 11px;
+    /*background: url(/static/home/widget/home/images/yusuan_ee1379d.png) no-repeat 0 57%;*/
+    padding-left: 25px;
+}
+.private .themes-more {
+    width: 135px;
+    margin-top: 26px;
+}
+.outBox:hover{
+	box-shadow:0 12px 20px 0 RGBA(62,71,79,.44);
+	transform:translateY(-2px);
+}
+/*购服务*/
+.serviceList {
+    margin: 18px 0 75px;
+}
+.serviceList li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.circle {
+    width: 121px;
+    display: inline-block;
+    height: 121px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 18px 20px;
+    margin: auto;
+}
+.paragraph {
+    padding-top: 40px;
+    font-size: 18px;
+}
+.paragraph p {
+    margin-top: 8px;
+    font-weight: lighter;
+}
+.lets {
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: lighter;
 }
