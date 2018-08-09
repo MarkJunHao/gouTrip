@@ -27,6 +27,7 @@ class Trip extends React.Component{
 
 	
 	componentDidMount(){
+		$('.nav_wrap').addClass('nav_wrap_trip')
 		var _this = this
 		$.ajax({
 			type:'get',
@@ -184,7 +185,7 @@ class Trip extends React.Component{
 											return(
 												
 												<div key={i}>
-													<a href={'/detail?id='+item.id} >
+													<a href={'/trip/detail?routerId='+item.id} >
 														<img className ='l_img1' src={item.img}/>
 													</a>
 													<p>

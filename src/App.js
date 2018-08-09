@@ -124,10 +124,9 @@ class App extends Component {
 					<Route path='/heart' component={Heart}></Route>
 					<Route path='/register' component={Register}></Route>
 					<Route path='/login' component={Login}></Route>
+					<Route exact path='/trip/detail' component={Detail}></Route>
 					<Route exact path='/vr/collect' component={Collect}></Route>
 					<Route exact path='/vr/upload' component={Upload}></Route>
-					
-
 					<Route exact path='/trip/product' component={Product}></Route>
 					
       				<Redirect to='/home'/>
