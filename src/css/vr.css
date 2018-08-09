@@ -29,12 +29,7 @@ body{
 .vr_upload>p{
 	font-size: 24px;
 	color: #2F71B0;
-	line-height: 36px;
-}
-.vr_upload>a{
-	cursor: pointer;
-    text-decoration: none;
-    outline: 0;
+	line-height: 25px;
 }
 .vr_btn{
 	width: 150px;
@@ -46,6 +41,9 @@ body{
 	position: absolute;
 	right: 54px;
 	top: 53px;
+	cursor: pointer;
+    text-decoration: none;
+    outline: 0;
 }
 
 /*list*/
@@ -63,13 +61,13 @@ body{
 	color: #999;
 	margin-left: 5px;
 }
-.vr_list>a{
+.vr_list a{
 	display: inline-block;
 	margin-right: 30px;
 	margin-top: 31px;
 	box-sizing: border-box;
 }
-.vr_list>a:nth-child(3n+2){
+.vr_list a:nth-child(3n+1){
 	margin-right: 0;
 }
 .vr_video{
@@ -77,9 +75,11 @@ body{
 	display: inline-block;
 	overflow: hidden;
 	float: left;
-	/*transition: 1s;
-	transform: translateY(10px);*/
+	transition: 1s;
 	position: relative;
+}
+.vr_video:hover{
+	transform: translateY(-10px);
 }
 .vr_cover{
 	width: 375px;
@@ -199,4 +199,19 @@ body{
     margin-left: 5px;
     margin-top: 29px;
     float: left;
+}
+
+
+/*按钮*/
+.vr_more{
+	width: 148px;
+	height: 46px;
+	background: #2F71B0;
+    color: #FFF;
+    text-align: center;
+    line-height: 46px;
+    margin: 50px auto;
+    margin-bottom: 44px;
+    font-size: 20px;
+    cursor: pointer;
 }

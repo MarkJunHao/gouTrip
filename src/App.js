@@ -18,11 +18,13 @@ import Register from './components/register'
 import Hotel from './components/hotel'
 import Product from './components/product'
 import Detail from './components/detail'
-
+import Upload from './components/upload'
+import Collect from './components/collect'
 import weibo from './images/weibo_xl.png';
 import baijia from './images/baijia.png';
 import toutiao from './images/toutiao.png';
 import weixin from './images/appGoutrip.png';
+
 
 import Mock from 'mockjs';
 
@@ -117,12 +119,14 @@ class App extends Component {
 					<Route exact path='/trip' component={Trip}></Route>
 					<Route path='/hotel' component={Hotel}></Route>
 					<Route path='/custom' component={Custom}></Route>
-					<Route path='/vr' component={Vr}></Route>
+					<Route exact path='/vr' component={Vr}></Route>
 					<Route path='/impression' component={Impression}></Route>
 					<Route path='/heart' component={Heart}></Route>
 					<Route path='/register' component={Register}></Route>
 					<Route path='/login' component={Login}></Route>
 					<Route exact path='/trip/detail' component={Detail}></Route>
+					<Route exact path='/vr/collect' component={Collect}></Route>
+					<Route exact path='/vr/upload' component={Upload}></Route>
 					<Route exact path='/trip/product' component={Product}></Route>
 					
       				<Redirect to='/home'/>
@@ -170,7 +174,7 @@ class App extends Component {
 				</div>
 				<div className='app_ft'>
 					<p>
-						Copyright ©2017 Gtrip.com  丨 京ICP备14016142号-1 丨 京公网安备11010802014913号 丨 北京汇智纵横信息技术有限公司 丨 地址：北京市海淀区中关村东路18号财智国际大厦A座17层
+						Copyright ?2017 Gtrip.com  丨 京ICP备14016142号-1 丨 京公网安备11010802014913号 丨 北京汇智纵横信息技术有限公司 丨 地址：北京市海淀区中关村东路18号财智国际大厦A座17层
 					</p>
 				</div>
 			</footer>

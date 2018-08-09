@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+}
+.impression_content{
+	width: 100%;
+	color: #333;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+}
+.impression_content>img{
+	display: inline-block;
+	width: 100%;
+}
+.impression_btn{
+	display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #2F71B0;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    margin-left: -75px;
+    margin-top: -136px;
+}
+.impression_world{
+	width: 765px;
+	margin: 76px auto;
+}
+.impression_collect{
+	position: relative;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.impression_collect>span{
+	position: absolute;
+    display: inline-block;
+    width: 110px;
+    bottom: 0;
+    left: 327px;
+    border-bottom: 2px solid #2F71B0;
+}
+.impression_world>p{
+	line-height: 2.3;
+}
+.impression_world>p>i{
+	display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #2F71B0;
+    margin-right: 12px;
+}
+.impression_pic2{
+	display: inline-block;
+	width: 100%;
+}
+.impression_stepDiv{
+	width: 1126px;
+    margin-top: -100px;
+    margin: 76px auto;
+}
+.impression_stepDiv>p{
+	margin-bottom: 100px;
+	line-height: 2.3;
+}
+.impression_stepDiv>p>span{
+	margin-left: 177px;
+}
+.impression_step{
+	display: inline-block;
+	width: 206px;
+	margin-left: 71px;
+}
+.impression_step>img{
+	width: 100px;
+	height: 100px;
+	margin-left: 53px;
+	margin-bottom: 20px;
+}
+.impression_step>p{
+	text-align: center;
+	font-size: 20px;
+	line-height: 2.3;
+}
+.impression_pic3{
+	width: 100%;
+	
+}
